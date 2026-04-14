@@ -1,0 +1,13 @@
+# ── Laravel ──
+composer create-project laravel/laravel currency-api 
+cd currency-api
+# Copy: routes/api.php, app/Http/Controllers/Api/CurrencyController.php, config/cors.php
+php artisan serve --port=8000
+
+
+# ── React ──
+npx create-react-app react-front
+cd react-frontend && npm install
+npm run dev
+# Opens at http://localhost:3000
+
